@@ -1,0 +1,12 @@
+POST http://localhost:5111/users
+Content-Type: application/json
+
+{
+    "firstName": "User",
+    "lastName": "Userenko",
+    "email": "user@mail.com",
+    "password": "012345678910user",
+    "passwordRepeat": "012345678910user",
+    "picturePath": "dsds",
+    "isMale": true
+}
